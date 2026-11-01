@@ -19,5 +19,3 @@ Next.js, React, CSS Modules, next/font, GitHub REST API, Vercel.
 npm install
 npm run dev
 ```
-EOF
-git add . && git commit -m "README" && git push
