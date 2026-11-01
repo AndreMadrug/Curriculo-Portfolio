@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.desc { color: var(--muted); margin: 0.4rem 0 1rem; min-height: 3rem; }
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.tag {
+  background: color-mix(in srgb, var(--primary) 15%, transparent);
+  color: var(--primary);
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  font-weight: 600;
+}

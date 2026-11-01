@@ -1,0 +1,38 @@
+.timeline {
+  list-style: none;
+  border-left: 3px solid var(--border);
+  padding-left: 1.5rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.item {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  box-shadow: var(--shadow);
+}
+
+.item::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.5rem - 9px);
+  top: 1.5rem;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--primary);
+  border: 3px solid var(--bg);
+}
+
+.periodo {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.local { color: var(--muted); margin-bottom: 0.4rem; }
