@@ -1,4 +1,3 @@
-cat > README.md <<'EOF'
 # Currículo / Portfólio
 
 Site pessoal de currículo e portfólio de André Nascimento, desenvolvido com Next.js (App Router) e CSS Modules.
